@@ -1,0 +1,414 @@
+/* グローバルスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #0175c2;
+    font-size: 24px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ヒーローセクション */
+.hero {
+    background-color: #f7e3e2;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    float: left;
+    color: #0175c2;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.about-us,
+.why-choose,
+.advantages,
+.models,
+.steps,
+.testimonials,
+.faq {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+h2, h3, h4 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+footer {
+    background-color: #0175c2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    padding-bottom: 10px;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+.step img,
+.hero img,
+.about-us img,
+.why-choose img,
+.models img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial h4 {
+    margin-bottom: 5px;
+    color: #0175c2;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.faq ul {
+    margin-top: 10px;
+}
+
+.faq ul li {
+    margin-bottom: 10px;
+}
+
+.cta-section {
+    background-color: #e8f7fc; /* 背景色の設定 */
+    padding: 30px 0;
+    text-align: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cta-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cta-box h3 {
+    font-size: 20px;
+    color: #00993d;
+    margin-bottom: 15px;
+}
+
+.cta-box p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cta-box button {
+    background-color: #00b33c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-box button:hover {
+    background-color: #00993d;
+}
+
+@media (max-width: 768px) {
+    .cta-container {
+        flex-direction: column;
+    }
+
+    .cta-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+.features-section {
+    background-color: #e8f7fc; /* 背景色の設定 */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.feature-box h3 {
+    font-size: 18px;
+    color: #00993d;
+    margin-bottom: 15px;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feature-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.feature-box ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.feature-box ul li::before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: #00993d;
+}
+
+@media (max-width: 768px) {
+    .features-container {
+        flex-direction: column;
+    }
+
+    .feature-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+.warning-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.warning-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.warning-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.warning-text h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.warning-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.warning-image {
+    flex: 1;
+    text-align: center;
+}
+
+.warning-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .warning-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .warning-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .warning-image img {
+        margin: 0 auto;
+    }
+}
+
+
